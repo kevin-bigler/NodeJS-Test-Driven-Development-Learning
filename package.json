@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-test-driven-development-learning",
+  "version": "1.0.0",
+  "description": "Learning how to do unit testing and possibly integration testing in node js.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Bigler",
+  "license": "ISC"
+}
