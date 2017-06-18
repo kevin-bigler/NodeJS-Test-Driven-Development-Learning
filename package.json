@@ -4,8 +4,16 @@
   "description": "Learning how to do unit testing and possibly integration testing in node js.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-bigler/NodeJS-Test-Driven-Development-Learning.git"
   },
   "author": "Kevin Bigler",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
 }
